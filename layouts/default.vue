@@ -69,7 +69,7 @@ export default {
           to: '/about'
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-file-document-multiple',
           title: 'Resume',
           to: '/resume'
         }
