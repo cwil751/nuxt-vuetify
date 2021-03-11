@@ -25,23 +25,16 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar
-      class="d-md-none"
-      fixed
-      app
-    >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-btn
-        icon
-        @click.stop="miniVariant = !miniVariant"
-      >
-        <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn>
-      <v-spacer/>
-      <v-toolbar-title v-text="title" />
-
+    
      
-    </v-app-bar>
+      <v-container>
+        <div class="rtl d-md-none">
+          <v-btn fab small fixed top dark >
+            <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+         </v-btn>
+        </div>
+      </v-container>
+
     <v-main>
       <v-container>
         <nuxt />
