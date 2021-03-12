@@ -109,7 +109,7 @@ export default {
         },
         {
           icon: 'mdi-file-document-multiple',
-          title: 'Download Resume',
+          title: 'Resume',
           to: 'resume'
         }
       ],
