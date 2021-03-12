@@ -1,10 +1,11 @@
 <template>
   <v-row justify="center" align="center">
-    
+    <v-col class="test-pad">
       <div class="text-center">
-      </div>
-
         <p class="line-1 anim-typewriter">Hi. I'm Cory.</p>
+      </div>
+    </v-col>
+        
      
 
   </v-row>
@@ -21,6 +22,9 @@ export default {
 </script>
 
 <style scoped>
+.test-pad{
+  padding-top: 8em;
+}
 html{
   min-height: 100%;
   overflow: hidden;
@@ -29,7 +33,7 @@ body{
   height: calc(100vh - 8em);
   padding: 4em;
   color: rgba(255,255,255,.75);
-  font-family: 'Anonymous Pro', monospace;  
+  font-family: monospace;  
   background-color: rgb(25,25,25);  
 }
 .line-1{
@@ -47,7 +51,7 @@ body{
 
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
+  animation: typewriter 2s steps(60) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
