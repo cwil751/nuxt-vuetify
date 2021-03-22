@@ -29,7 +29,6 @@
 <li>Data Analysis Skills (1 year)</li>
 <li>SQL (4 years)</li>
 <li>Microsoft SQL Server</li>
-<li>SQL Server Management Studio</li>
 </ul>
 </v-col>
 </v-row>
